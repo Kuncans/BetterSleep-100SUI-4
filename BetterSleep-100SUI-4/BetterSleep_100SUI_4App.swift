@@ -11,7 +11,7 @@ import SwiftUI
 struct BetterSleep_100SUI_4App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

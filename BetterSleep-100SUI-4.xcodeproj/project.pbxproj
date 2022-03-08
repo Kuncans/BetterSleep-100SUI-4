@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		95669FD527D69E4A0043417A /* BetterSleep_100SUI_4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95669FD427D69E4A0043417A /* BetterSleep_100SUI_4App.swift */; };
-		95669FD727D69E4A0043417A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95669FD627D69E4A0043417A /* ContentView.swift */; };
 		95669FD927D69E4C0043417A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95669FD827D69E4C0043417A /* Assets.xcassets */; };
 		95669FDC27D69E4C0043417A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95669FDB27D69E4C0043417A /* Preview Assets.xcassets */; };
+		95669FE327D76C7D0043417A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95669FE227D76C7D0043417A /* HomeViewModel.swift */; };
+		95669FE527D76C930043417A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95669FE427D76C930043417A /* HomeView.swift */; };
+		956D7C1427D7706A007DBE4E /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 956D7C1327D7706A007DBE4E /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		95669FD127D69E4A0043417A /* BetterSleep-100SUI-4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BetterSleep-100SUI-4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95669FD427D69E4A0043417A /* BetterSleep_100SUI_4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSleep_100SUI_4App.swift; sourceTree = "<group>"; };
-		95669FD627D69E4A0043417A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		95669FD827D69E4C0043417A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95669FDB27D69E4C0043417A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95669FE227D76C7D0043417A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		95669FE427D76C930043417A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		956D7C1327D7706A007DBE4E /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +55,11 @@
 		95669FD327D69E4A0043417A /* BetterSleep-100SUI-4 */ = {
 			isa = PBXGroup;
 			children = (
-				95669FD427D69E4A0043417A /* BetterSleep_100SUI_4App.swift */,
-				95669FD627D69E4A0043417A /* ContentView.swift */,
+				95669FE427D76C930043417A /* HomeView.swift */,
+				95669FE227D76C7D0043417A /* HomeViewModel.swift */,
+				956D7C1327D7706A007DBE4E /* SleepCalculator.mlmodel */,
 				95669FD827D69E4C0043417A /* Assets.xcassets */,
+				95669FD427D69E4A0043417A /* BetterSleep_100SUI_4App.swift */,
 				95669FDA27D69E4C0043417A /* Preview Content */,
 			);
 			path = "BetterSleep-100SUI-4";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95669FD727D69E4A0043417A /* ContentView.swift in Sources */,
+				95669FE527D76C930043417A /* HomeView.swift in Sources */,
+				95669FE327D76C7D0043417A /* HomeViewModel.swift in Sources */,
+				956D7C1427D7706A007DBE4E /* SleepCalculator.mlmodel in Sources */,
 				95669FD527D69E4A0043417A /* BetterSleep_100SUI_4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
